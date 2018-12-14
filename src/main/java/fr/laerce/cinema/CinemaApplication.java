@@ -35,6 +35,7 @@ public class CinemaApplication {
                 person.setSurname("Ventura");
                 person.setGivenname("Lino");
                 dao.save(person);
+                System.out.println("id associé à : "+person.getSurname()+" : "+ person.getId());
             }
         };
     }
